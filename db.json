@@ -1,0 +1,30 @@
+{
+  "chatbot": [
+    {
+      "message": "Hello, Human. I'm Brooklyn doo doo doo doo doo doo. Nice to meet you.",
+      "id": 1
+    },
+    {
+      "message": "I'm okay, Human. I'm Brooklyn doo doo doo doo doo doo. Nice to meet you.",
+      "id": 2
+    },
+    {
+      "message": "no problem. Brooklyn doo doo doo doo doo doo doo.",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "message": "helloooo",
+      "id": 1
+    },
+    {
+      "message": "how are you",
+      "id": 2
+    },
+    {
+      "message": "thank you",
+      "id": 3
+    }
+  ]
+}
