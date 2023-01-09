@@ -1,7 +1,6 @@
 # json-server 기반 AI Chatting App
 
 프로젝트 설명: ai기반 chatting api를 이용한 채팅앱 구현.
-(Netlify 배포)
 
 _테스트 결과 로컬에서 실행 방법_
 
