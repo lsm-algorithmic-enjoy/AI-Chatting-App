@@ -34,8 +34,7 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
-      await chatbotreadList();
-      await userreadList();
+      await Promise.all(chatbotreadList(), userreadList());
     })();
   }, []);
 
