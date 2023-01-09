@@ -9,11 +9,11 @@ export default function App() {
   const [usermessageList, setUserMessageList] = useState([]);
   const [message, setMessage] = useState("");
   const chatbotreadList = async () => {
-    const { data } = await axios.get("http://localhost:9000/chatbot");
+    const { data } = await axios("http://localhost:9000/chatbot");
     setChatbotMessageList(data);
   };
   const userreadList = async () => {
-    const { data } = await axios.get("http://localhost:9000/user");
+    const { data } = await axios("http://localhost:9000/user");
     setUserMessageList(data);
   };
 
@@ -61,6 +61,7 @@ export default function App() {
     resetDB();
     userreadList();
     chatbotreadList();
+    setMessage("");
   };
 
   return (
